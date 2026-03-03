@@ -95,3 +95,23 @@ The default values for all parameters (except `input`) can be modified system-wi
 - `DEFAULT_REPETITION_PENALTY`
 - `DEFAULT_TOP_K`
 - `DEFAULT_TOP_P`
+
+---
+
+## 5. Utility Endpoints
+
+### `GET /v1/voices`
+
+Returns a list of all available voice identifiers configured on the server.
+
+**Example Request:**
+```bash
+curl -X GET "http://localhost:5100/v1/voices"
+```
+
+**Example Response:**
+```json
+{
+  "voices": ["alloy", "cortana", "echo", "fable", "friday", "glados", "hal", "jarvis", "kitt", "nova", "onyx", "rachel", "samantha", "shimmer", "tars"]
+}
+```
