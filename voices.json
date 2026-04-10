@@ -1,0 +1,17 @@
+{
+    "alloy":    "standard/alloy.wav",
+    "echo":     "standard/echo.wav",
+    "fable":    "standard/fable.wav",
+    "onyx":     "standard/onyx.wav",
+    "nova":     "standard/nova.wav",
+    "shimmer":  "standard/shimmer.wav",
+    "jarvis":   "elite/jarvis.wav",
+    "friday":   "elite/kerry_condon.wav",
+    "hal":      "elite/hal9000.wav",
+    "samantha": "elite/scarlett_johansson.wav",
+    "cortana":  "elite/cortana.wav",
+    "glados":   "elite/glados.wav",
+    "tars":     "elite/tars.wav",
+    "kitt":     "elite/kitt.wav",
+    "rachel":   "elite/rachel.wav"
+}
